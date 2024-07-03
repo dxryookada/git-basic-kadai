@@ -1,0 +1,17 @@
+PS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge> 
+PS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge>echo "hello worldを追加" >> hello_world.txt
+PS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge>git add
+fatal: not a git repository (or any of the parent directorieop/DX/gitTraining/git_challenge/.git/
+PS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge>git add
+Nothing specified, nothing added.
+hint: Disable this message with "git config advice.addEmptyPPS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge>gPS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge>git commit -m "hello_world.txtを追加"
+ create mode 100644 hello_world.txt
+PS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge>echo "こんにちは、世界" >> hello_world.txt 
+PS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge>git add hello_world.txt
+PS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge>git commit -m "日本語訳を追記"
+[main 914ee79] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge>git log --oneline
+914ee79 (HEAD -> main) 日本語訳を追記
+ef12ad0 hello_world.txtを追加
+PS C:\Users\ryo okada\Desktop\DX\gitTraining\git_challenge> 
